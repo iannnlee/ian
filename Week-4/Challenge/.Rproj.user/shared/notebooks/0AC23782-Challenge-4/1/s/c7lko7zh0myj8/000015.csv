@@ -1,0 +1,7 @@
+"0","# Enter code here"
+"0","highest_characters <- comm_data %>%"
+"0","  group_by(date) %>%"
+"0","  summarise(character_count = sum(nchar(message))) %>%"
+"0","  arrange(desc(character_count)) %>%"
+"0","  head(1)"
+"0","print(highest_characters)"

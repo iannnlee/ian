@@ -1,0 +1,4 @@
+"0","# Enter code here"
+"0","selected_columns <- comm_data %>%"
+"0","  select(date, channel, message)"
+"0","print(selected_columns)"
