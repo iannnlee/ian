@@ -1,0 +1,8 @@
+"0","# Enter code here"
+"0","data <- c(10, NA, 15, 20)"
+"0","missing <- is.na(data[2])"
+"0","print(missing)"
+"1","[1]"
+"1"," TRUE"
+"1","
+"

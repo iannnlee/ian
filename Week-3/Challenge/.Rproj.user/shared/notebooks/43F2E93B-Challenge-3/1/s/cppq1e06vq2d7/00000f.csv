@@ -1,0 +1,8 @@
+"0","# Enter code here"
+"0","x <- c(1,2,3,4,5,10)"
+"0","last_element <- x[length(x)]"
+"0","print(last_element)"
+"1","[1]"
+"1"," 10"
+"1","
+"

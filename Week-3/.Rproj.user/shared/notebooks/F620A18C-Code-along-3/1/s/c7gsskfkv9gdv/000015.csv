@@ -1,0 +1,12 @@
+"0","# Load package tidyverse"
+"0","install.packages(""tidyverse"")"
+"2","also installing the dependency ‘xml2’
+
+"
+"1","
+"
+"1",""
+"1","  There is a binary version available but the source version is later"
+"1",""
+"1",":
+"

@@ -1,0 +1,218 @@
+"1","
+"
+"2","trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/tidyverse_2.0.0.tgz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 423020 bytes (413 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 413 KB
+
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	/var/folders/gy/5kx09g2j0m3f8193fly2nn000000gn/T//RtmpWZ1UBT/downloaded_packages"
+"1",""
+"1","
+"
+"2","installing the source package ‘xml2’
+
+"
+"2","trying URL 'https://cran.rstudio.com/src/contrib/xml2_1.3.5.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 272664 bytes (266 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 266 KB
+
+"
+"2","* installing *source* package ‘xml2’ ...
+"
+"2","** package ‘xml2’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"1","Found pkg-config cflags and libs!
+"
+"1","Using PKG_CFLAGS=-I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include
+"
+"1","Using PKG_LIBS=-L/Users/iannnlee/opt/anaconda3/lib -lxml2 -L/Users/iannnlee/opt/anaconda3/lib -lz -L/Users/iannnlee/opt/anaconda3/lib -llzma -lpthread -L/Users/iannnlee/opt/anaconda3/lib -liconv -L/Users/iannnlee/opt/anaconda3/lib -licui18n -licuuc -licudata -lm
+"
+"2","** libs
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c connection.cpp -o connection.o
+"
+"1","clang -mmacosx-version-min=10.13 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c init.c -o init.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_doc.cpp -o xml2_doc.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_init.cpp -o xml2_init.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_namespace.cpp -o xml2_namespace.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_node.cpp -o xml2_node.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_output.cpp -o xml2_output.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_schema.cpp -o xml2_schema.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_url.cpp -o xml2_url.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -I""/Library/Frameworks/R.framework/Resources/include"" -DNDEBUG -I../inst/include -I/Users/iannnlee/opt/anaconda3/include/libxml2 -I/Users/iannnlee/opt/anaconda3/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0  -I/usr/local/include   -fPIC  -Wall -g -O2  -c xml2_xpath.cpp -o xml2_xpath.o
+"
+"1","clang++ -mmacosx-version-min=10.13 -std=gnu++14 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o xml2.so connection.o init.o xml2_doc.o xml2_init.o xml2_namespace.o xml2_node.o xml2_output.o xml2_schema.o xml2_url.o xml2_xpath.o -L/Users/iannnlee/opt/anaconda3/lib -lxml2 -L/Users/iannnlee/opt/anaconda3/lib -lz -L/Users/iannnlee/opt/anaconda3/lib -llzma -lpthread -L/Users/iannnlee/opt/anaconda3/lib -liconv -L/Users/iannnlee/opt/anaconda3/lib -licui18n -licuuc -licudata -lm -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+"
+"2","installing to /Library/Frameworks/R.framework/Versions/4.1/Resources/library/00LOCK-xml2/00new/xml2/libs
+"
+"2","** R
+"
+"2","** inst
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"2","** help
+"
+"2","Error :  unable to load shared object '/Library/Frameworks/R.framework/Versions/4.1/Resources/library/00LOCK-xml2/00new/xml2/libs/xml2.so':
+  dlopen(/Library/Frameworks/R.framework/Versions/4.1/Resources/library/00LOCK-xml2/00new/xml2/libs/xml2.so, 0x0006): Library not loaded: @rpath/libxml2.2.dylib
+  Referenced from: <D6B2E802-AA3B-3650-9BA6-C5752E777F3E> /Library/Frameworks/R.framework/Versions/4.1/Resources/library/00LOCK-xml2/00new/xml2/libs/xml2.so
+  Reason: tried: '/Library/Frameworks/R.framework/Resources/lib/libxml2.2.dylib' (no such file), '/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/server/libxml2.2.dylib' (no such file)
+"
+"2","ERROR: installing Rd objects failed for package ‘xml2’
+"
+"2","* removing ‘/Library/Frameworks/R.framework/Versions/4.1/Resources/library/xml2’
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","installation of package ‘xml2’ had non-zero exit status"
+"1",""
+"1","
+"
+"2","
+"
+"2",""
+"2","The downloaded source packages are in
+	‘/private/var/folders/gy/5kx09g2j0m3f8193fly2nn000000gn/T/RtmpWZ1UBT/downloaded_packages’"
+"2",""
+"2","
+"
+"0","library(tidyverse)"
+"2","── [1mAttaching core tidyverse packages[22m ──────────────────────────────────────────────────────────────────────── tidyverse 2.0.0 ──
+[32m✔[39m [34mdplyr    [39m 1.1.2     [32m✔[39m [34mreadr    [39m 2.1.4
+[32m✔[39m [34mforcats  [39m 1.0.0     [32m✔[39m [34mstringr  [39m 1.5.0
+[32m✔[39m [34mggplot2  [39m 3.4.3     [32m✔[39m [34mtibble   [39m 3.2.1
+[32m✔[39m [34mlubridate[39m 1.9.2     [32m✔[39m [34mtidyr    [39m 1.3.0
+[32m✔[39m [34mpurrr    [39m 1.0.2     "
+"2","── [1mConflicts[22m ────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
+[31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
+[36mℹ[39m Use the ]8;;http://conflicted.r-lib.org/conflicted package]8;; to force all conflicts to become errors"
