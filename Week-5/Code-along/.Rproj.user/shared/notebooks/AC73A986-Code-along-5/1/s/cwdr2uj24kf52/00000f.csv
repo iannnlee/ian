@@ -1,0 +1,4 @@
+"0","  mean(rnorm(sample_size))}
+"
+"2","Error: unexpected '}' in ""  mean(rnorm(sample_size))}""
+"

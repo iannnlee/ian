@@ -1,0 +1,183 @@
+---
+title: "Challenge-5"
+author: "Ian Lee"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Questions
+<br>
+
+#### Question-1: Local Variable Shadowing 
+
+Create an R function that defines a global variable called `x` with a value of 5. Inside the function, declare a local variable also named `x` with a value of 10. Print the value of `x` both inside and outside the function to demonstrate shadowing.
+
+**Solutions:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+x <- 5
+
+shadowing_demo <- function() {
+  x <- 10  
+  cat("Inside the function: x =", x, "\n")
+}
+shadowing_demo()
+
+cat("Outside the function: x =", x, "\n")
+```
+<br>
+
+#### Question-2: Modify Global Variable
+
+Create an R function that takes an argument and adds it to a global variable called `total`. Call the function multiple times with different arguments to accumulate the values in `total`.
+
+**Solutions:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+# Initialize a global variable total
+total <- 0
+
+# Create a function that adds the argument to the global total
+add_to_total <- function(x) {
+  # Use the <<- operator to modify the global variable
+  total <<- total + x
+}
+
+add_to_total(10)
+cat("Total =", total, "\n")
+add_to_total(20)
+cat("Total =", total, "\n")
+add_to_total(30)
+cat("Total =", total, "\n")
+```
+<br>
+
+#### Question-3: Global and Local Interaction 
+
+Write an R program that includes a global variable `total` with an initial value of 100. Create a function that takes an argument, adds it to `total`, and returns the updated `total`. Demonstrate how this function interacts with the global variable.
+
+**Solutions:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+total <- 100
+add_to_total <- function(x) {
+  total <<- total + x
+  return(total)
+}
+
+cat("Initial total:", total, "\n")
+
+new_total <- add_to_total(20)
+cat("Total after adding 20:", new_total, "\n")
+```
+<br>
+
+#### Question-4: Nested Functions
+
+Define a function `outer_function` that declares a local variable `x` with a value of 5. Inside `outer_function`, define another function `inner_function` that prints the value of `x`. Call both functions to show how the inner function accesses the variable from the outer function's scope.
+
+**Solutions:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+
+outer_function <- function() {
+  x <- 5  
+  inner_function <- function() {
+    cat("Value of x from inner_function:", x, "\n")
+  }
+  cat("Value of x from outer_function:", x, "\n")
+  inner_function()  
+}
+
+outer_function()
+```
+<br>
+
+#### Question-5: Meme Generator Function
+
+Create a function that takes a text input and generates a humorous meme with the text overlaid on an image of your choice. You can use the `magick` package for image manipulation. You can find more details about the commands offered by the package, with some examples of annotating images here: https://cran.r-project.org/web/packages/magick/vignettes/intro.html
+
+**Solutions:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+library(magick)
+
+generate_meme <- function(input_text, image_path, output_path) {
+  img <- image_read(image_path)
+  
+  text_color <- "black"
+  font_size <- 150
+  text_x <- 90
+  text_y <- 90
+  font_path <- "/Users/iannnlee/Desktop/nus y3s1/NM2207 Computational Media Literacy/Week-5/Challenge/Freedom-10eM.ttf"  
+  
+  img <- image_annotate(
+    img,
+    input_text,
+    size = font_size,
+    color = text_color,
+    location = "+x+y",
+    gravity = "northwest",
+    boxcolor = "pink",
+    strokecolor = "blue",
+    font = font_path
+  )
+  
+  image_write(img, path = output_path)
+  
+  cat("Meme created and saved as", output_path, "\n")
+}
+
+input_text <- "HELP MY BRAIN IS GONE TODAY HAS BEEN A LONG DAY :/"
+image_path <- "/Users/iannnlee/Desktop/nus y3s1/NM2207 Computational Media Literacy/Week-5/Challenge/rashypic.jpeg"  
+output_path <- "my_meme.jpg"
+
+generate_meme(input_text, image_path, output_path)
+
+```
+<br>
+
+#### Question-6: Text Analysis Game  
+
+Develop a text analysis game in which the user inputs a sentence, and the R function provides statistics like the number of words, characters, and average word length. Reward the user with a "communication skill level" based on their input.
+
+**Solutions:**
+
+```{r, eval=TRUE,echo=TRUE}
+# Enter code here
+text_analysis_game <- function() {
+  sentence <- tolower(readline("Enter a sentence: "))
+
+  words <- strsplit(sentence, "\\s+")[[1]]
+  num_words <- length(words)
+  num_chars <- nchar(sentence)
+  avg_word_length <- num_chars / num_words
+  
+  skill_level <- ifelse(
+    avg_word_length < 4,
+    "Novice",
+    ifelse(avg_word_length < 6, "Intermediate", "Expert")
+  )
+  
+  cat("Text Analysis Results:\n")
+  cat("Number of words:", num_words, "\n")
+  cat("Number of characters:", num_chars, "\n")
+  cat("Average word length:", avg_word_length, "\n")
+  cat("Communication Skill Level:", skill_level, "\n")
+}
+
+text_analysis_game()
+```
+<br>
