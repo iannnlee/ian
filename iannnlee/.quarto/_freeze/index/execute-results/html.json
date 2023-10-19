@@ -1,0 +1,14 @@
+{
+  "hash": "324b0ac2ab6acdb661c42263034e3549",
+  "result": {
+    "markdown": "---\ntitle: \"Introduction\"\n---\n\n\n## *Welcome to my website!!!*\n\n### My name is Ian\n\nI am a Year 3 Business Administration student\n\nI am taking NM2207 in Semester 1, AY23/24\n\n```{{r}}\ncat(\"[Quarto](https://quarto.org)\")\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
