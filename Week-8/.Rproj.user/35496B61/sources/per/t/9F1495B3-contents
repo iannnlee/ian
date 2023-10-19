@@ -1,0 +1,86 @@
+---
+title: "Week-8:Code-along"
+author: "Ian Lee"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+---
+
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# I. All about ggplot2 package
+<br>
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+### (Slide #)
+
+```{r, eval=TRUE,echo=TRUE}
+
+```

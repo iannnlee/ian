@@ -1,0 +1,60 @@
+---
+title: "Week-8:Challenge"
+author: "Ian Lee"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+---
+
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Customising Example 11 in Shiny App
+<br>
+
+## Screenshot
+<br>
+
+### From Example 11, I customised the text, added the miliseconds and lastly added a line of summation for timing
+```{r, out.height= "425px",out.width= "300px",echo=FALSE,eval=TRUE}  
+knitr::include_graphics("/Users/iannnlee/Desktop/nus y3s1/NM2207 Computational Media Literacy/Week-8/Week-8/Screenshot 2023-10-11 at 8.08.51 PM.png")
+```
+
+```{r, eval=FALSE,echo=TRUE}
+ui <- fluidPage(
+  h2(textOutput("currentTime")),
+  h3(textOutput("timeSum"))
+)
+
+
+server <- function(input, output, session) {
+  
+  
+  current_time <- reactive({
+    invalidateLater(500, session)
+    Sys.time()
+  })
+  
+  
+  time_now <- reactive({
+    t <- current_time()
+    list(hour = hour(t), minute = minute(t), second = second(t))
+  })
+  
+  output$currentTime <- renderText({
+    paste("The time NOW!!! :", format(current_time(), "%Y-%m-%d %H:%M:%OS2"))
+  })
+  
+  output$timeSum <- renderText({
+    time_values <- time_now()
+    time_sum <- sum(time_values$hour, time_values$minute, time_values$second)
+    paste("Sum of hours, minutes, and seconds:", time_sum)
+  })
+  
+}
+
+# Create Shiny app ----
+shinyApp(ui, server)
+
+```
