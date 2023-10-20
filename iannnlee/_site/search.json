@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Week 9",
+    "section": "",
+    "text": "I am a Year 3 Business Administration student\nI am taking NM2207 in Semester 1, AY23/24\n\neval=TRUE\nout.width=\"100%\"\nknitr::include_graphics(\"/Users/iannnlee/Desktop/nus y3s1/NM2207 Computational Media Literacy/Week-5/Challenge/memepic.jpeg\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "Week 9",
+    "section": "",
+    "text": "I am a Year 3 Business Administration student\nI am taking NM2207 in Semester 1, AY23/24\n\neval=TRUE\nout.width=\"100%\"\nknitr::include_graphics(\"/Users/iannnlee/Desktop/nus y3s1/NM2207 Computational Media Literacy/Week-5/Challenge/memepic.jpeg\")"
+  }
+]
