@@ -18,13 +18,14 @@ Why is Singapore experiencing an increasing number of people who are not married
 ## (2) Why is this an important question? (Answer: 3 sentences, each of which has some evidence, e.g., “According to the United Nations...” to justify why the question you have chosen is important),
 
 
-Singapore's rising singlehood is of significant concern, with one of the world's lowest fertility rates, driven partly by delayed marriage and childbirth. This is impacting future population growth and aging demographics.
+Singapore's rising singlehood is of significant concern, with one of the world's lowest fertility rates, at 1.05 as of 2022 (CNA,2023), driven partly by delayed marriage and childbirth. This is impacting future population growth and aging demographics.
 
 
 The surge in singlehood also reflects evolving social and cultural norms, emphasizing individual pursuits and career development, with potential implications on family structures, gender roles and societal values in Singapore.
 
 
 Lastly, policymakers urgently need to comprehend the reasons behind this trend to develop effective strategies, including family support policies and measures to address the challenges posed by an aging population and a shrinking workforce in Singapore.
+
 
 ## (3) Which rows and columns of the dataset will be used to answer this question? (Answer: Actual names of the variables in the dataset that you plan to use).
 
