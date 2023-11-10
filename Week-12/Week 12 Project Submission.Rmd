@@ -1,0 +1,102 @@
+---
+title: "Week 12 Project Submission"
+author: "Ian Lee"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Documentation (Week 12)
+
+## Challenges Faced & How I overcame them
+
+First challenge I faced was tidying my data. I overcame this by reading up on Google and discussing with fellow classmates.
+
+Another challenge I faced was attempting to do a ggplot. I faced some difficulties as I was trying to create a graph based on the year. However, I realised that in my dataset, the years were not titled "years". As such, in my code, I used "2022" directly.
+
+As this is the first time I am designing a website, I am unsure what makes a website look nice. I have been asking design friends for advice as well as searching Google for inspiration.
+
+# Documentation (Week 11)
+
+## (1) List the visualizations that you are going to use in your project (Answer: What are the variables that you are going to plot? How will it answer your larger question?),
+
+Variables to plot:
+Age Group
+Sex (Gender)
+Highest Qualification Attained
+Relationship Status
+
+## (2) How do you plan to make it interactive? (Answer: features of ggplot2/shiny/markdown do you plan to use to make the story interactive),
+
+I plan to use several graphs to make my website interactive
+
+Dependent Variable: Relationship Status
+
+Independent Variable:
+Age: I am planning to list down the different age groups. When the user clicks on the icon, the statistic for the number of singles for that age group will appear
+Sex: I am planning to do a pie chart to display the gender distribution within the dataset, providing insights into gender representation.
+Highest Qualification Attained: I am planning to use a line graph to show how highest qualification attained may affect relationship status
+
+## (3) What concepts incorporated in your project were taught in the course and which ones were self-learnt? (Answer: Create a table with topics in one column and Weeks in the other to indicate which concept taught in which week is being used. Leave the entry of the Week column empty for self-learnt concepts)
+
+to be answered when I have more progress on the website
+
+# Documentation (Week 10)
+
+## (1) What is the question that you are going to answer? (Answer: One sentence that ends with a question mark that could act like the title of your data story),
+
+Why is Singapore experiencing an increasing number of people who are not married?
+
+## (2) Why is this an important question? (Answer: 3 sentences, each of which has some evidence, e.g., “According to the United Nations...” to justify why the question you have chosen is important),
+
+
+Singapore's rising singlehood is of significant concern, with one of the world's lowest fertility rates, at 1.05 as of 2022 (CNA,2023), driven partly by delayed marriage and childbirth. This is impacting future population growth and aging demographics.
+
+
+The surge in singlehood also reflects evolving social and cultural norms, emphasizing individual pursuits and career development, with potential implications on family structures, gender roles and societal values in Singapore.
+
+
+Lastly, policymakers urgently need to comprehend the reasons behind this trend to develop effective strategies, including family support policies and measures to address the challenges posed by an aging population and a shrinking workforce in Singapore.
+
+
+## (3) Which rows and columns of the dataset will be used to answer this question? (Answer: Actual names of the variables in the dataset that you plan to use).
+
+I will be using all variables from my dataset. These are datas that show Age Group, Sex And Highest Qualification Attained. They include:
+
+30-39 Years (Total)
+30-39 Years (Males)
+30-39 Years (Females)
+40-49 Years (Total)
+40-49 Years (Males)
+40-49 Years (Females)
+  Below Secondary
+  Secondary
+  Post-Secondary (Non-Tertiary)
+  Diploma & Professional Qualification
+  University
+
+
+# Documentation (Week 9)
+
+## (1) What is the topic that you have finalized? (Answer in 1 or 2 sentences)
+
+The topic I chose to analyse is the population of singles in Singapore and the potential causes behind why people are not getting married.
+
+Single: This refers to a person who has never been married.
+
+
+## (2) What are the data sources that you have curated so far? (Answer 1 or 2 sentences)
+
+https://tablebuilder.singstat.gov.sg/table/TS/M810591
+
+Proportion Of Singles Among Resident Population By Selected Age Group, Sex And Highest Qualification Attained
+
+
+
+
+
+
+
